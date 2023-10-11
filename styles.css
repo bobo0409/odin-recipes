@@ -1,4 +1,20 @@
+button {
+  border-radius: 5px;
+  color: rgb(100, 20, 100, 50);
+  background-color: antiquewhite;
+  font-size: 36px;
+  transition: transform(0.3s ease-in);
+}
+
+button:hover {
+  transform: scale(1.2) rotate(10deg) translateY(-10px);
+}
+
 h1 {
-  color: rebeccapurple;
-  background-color: aqua;
+  text-align: center;
+  font-size: 50px;
+}
+
+ul {
+  font-size: 30px;
 }
