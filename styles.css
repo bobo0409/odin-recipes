@@ -1,4 +1,4 @@
-button {
+/* button {
   border-radius: 5px;
   color: rgb(100, 20, 100, 50);
   background-color: antiquewhite;
@@ -8,13 +8,51 @@ button {
 
 button:hover {
   transform: scale(1.2) rotate(10deg) translateY(-10px);
+} */
+/* 
+.container-page {
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   text-align: center;
-  font-size: 50px;
+  font-size: 70px;
 }
 
 ul {
-  font-size: 30px;
+  list-style-type: none;
+  font-size: 50px;
+}
+
+.recipe-name {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+} */
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container-page {
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-name a {
+  color: #555;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.image {
+  width: 200px; /* or whatever size you prefer */
 }
