@@ -1,28 +1,44 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Odin Recipes</title>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Box Model</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="container-page">
-      <h1>Odin Recipes</h1>
-      <ul>
-        <li class="recipe-name text">
-          <a href="recipes/chicken-paprikash.html">Chicken Paprikash</a>
-        </li>
-        <img class="image" src="images/chicken-paprikash.jpg" />
-        <li class="recipe-name text">
-          <a href="recipes/baked-ziti.html">Baked Ziti</a>
-        </li>
-        <img class="image" src="images/baked-ziti.jpg" />
-        <li class="recipe-name text">
-          <a href="recipes/bibimbap.html">Bibimbap</a>
-        </li>
-        <img class="image" src="images/bibimbap.jpg" />
-      </ul>
+    <h1>Odin Recipes</h1>
+    <div>
+      <span><a href="">Home</a></span>
+
+      <span><a href="">Contact</a></span>
+    </div>
+    <div class="separator"></div>
+    <div class="recipe" id="chicken">
+      <a href="recipes/chicken-paprikash.html" class="no-line"
+        >Chicken Paprikash</a
+      >
+    </div>
+    <div class="separator"></div>
+    <div class="recipe" id="ziti">
+      <a href="recipes/baked-ziti.html" class="no-line">Baked Ziti</a>
+    </div>
+    <div class="separator"></div>
+    <div class="recipe" id="bimibap">
+      <a href="recipes/bibimbap.html" class="no-line">Bimibap</a>
+    </div>
+    <div class="separator">
+      <div class="video-container">
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/jfKfPfyJRdk?si=YmAk1kdSSiyGELdt"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
     </div>
   </body>
 </html>
